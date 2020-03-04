@@ -1,57 +1,157 @@
 h1 {
-    font-family:cursive;
-    color: navy;
-    text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: navy;
+  text-align: center;
+  width:100%;
+  height:100px;
+  padding-top: 10px;
+  font-size: 80px;
+  text-decoration: none;
 }
-  
+
+h1 a:link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: navy;
+  text-align: center;
+  width:100%;
+  height:100px;
+  padding-top: 10px;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+h1 a:visited{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: navy;
+  text-align: center;
+  width:100%;
+  height:100px;
+  padding-top: 10px;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: navy;
+  text-align: center;
+  width:100%;
+  height:100px;
+  padding-top: 10px;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+h1 a:active{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: navy;
+  text-align: center;
+  width:100%;
+  height:100px;
+  padding-top: 10px;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+#container {
+  margin: 0px auto 10px auto;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#about{
+  padding: 5px;
+}
+
+
+
 body p {
-    color: tomato;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 20px;
-    padding: 10px;
+  color: tomato;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
 }
-  
-body h2 {
-    font-family: fantasy; 
-    color: teal;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
+
+#menu h2 {
+  font-family: Tahoma, Geneva, sans-serif; 
+  color: navy;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
 }
   
 body p3 {
-    color: tomato;
-    font-size: 8px;
-    font-weight: bold;
-    text-align: center;
+  color: tomato;
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
 }
   
 body {
-    background: #fafad2;
-    font-family: sans-serif;
+  background: #fafad2;
+  font-family: sans-serif;
 }
   
-ol li {
-    font-family: fantasy; 
-    color: teal;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    list-style-position: inside;
+#menu ol li {
+  font-family: Tahoma, Geneva, sans-serif; 
+  color: navy;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  list-style-position: inside;
 }
 
-ol img {
+#menu ol img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 15%;
+  border-radius: 5px;
 }
 
-footer p{
-  font-size: 10px;
+.imageleft {
+  float:left;
+  width: 30%;
+  border:1px solid black;
+  margin:0 10px 0 0;
+  border-radius: 5px;
 }
 
-img {
-  width:100px;
+h2 {
+  font-family: Tahoma, Geneva, sans-serif; 
+  color: tomato;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+pre {
+  color: tomato;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+        width: 100%;
+      margin-top: 0;
+  }
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
